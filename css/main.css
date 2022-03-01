@@ -40,3 +40,7 @@ header .header-icons-container .icons {
     margin-right: 50px;
 
 }
+
+header .icons span {
+    color: white;
+}

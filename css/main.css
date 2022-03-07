@@ -10,6 +10,7 @@ body {
     left: 0;
     right: 0;
 }
+
 a {
     text-decoration: none;
     display: inline;
@@ -41,24 +42,29 @@ header .header-icons-container .icons {
 header .icons span {
     color: white;
 }
+
 nav  {
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 90px;
 }
+
 nav .nav-logo-container {
     margin-left: 50px;
 }
+
 nav .nav-logo-container img {
     width: 220px;
     margin-top: 10px;
 }
+
 nav .profile-link {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     margin-right: 50px;
 }
+
 nav .profile-link a {
     color: black;
     border-bottom: 1px solid black;
@@ -97,4 +103,9 @@ nav .profile-link a {
     font-weight: 700;
     font-size: 18px;
     line-height: 50px;
+}
+
+.home-main-button a {
+    font-weight: 700;
+    font-size: 18px;
 }
